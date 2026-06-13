@@ -1,0 +1,19 @@
+{
+  "company_name": "Infosys",
+  "role_family": "Technology Consulting / Engineering",
+  "required_skills": [
+    {"skill": "Java", "weight": 5},
+    {"skill": "SQL", "weight": 4},
+    {"skill": "Communication", "weight": 4},
+    {"skill": "Agile", "weight": 3}
+  ],
+  "preferred_skills": [
+    {"skill": "Cloud Computing", "weight": 3},
+    {"skill": "Azure", "weight": 3},
+    {"skill": "DevOps", "weight": 2},
+    {"skill": "Business Analysis", "weight": 2}
+  ],
+  "hiring_focus_areas": ["Global services", "digital modernization", "customer success"],
+  "description": "Infosys values full-stack engineers and consulting professionals with strong collaboration skills.",
+  "baseline_difficulty": 3.6
+}

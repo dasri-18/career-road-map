@@ -1,0 +1,20 @@
+{
+  "company_name": "Amazon",
+  "role_family": "Software Development / Data Engineering",
+  "required_skills": [
+    {"skill": "Java", "weight": 5},
+    {"skill": "Algorithms", "weight": 5},
+    {"skill": "Data Structures", "weight": 5},
+    {"skill": "Cloud Computing", "weight": 4},
+    {"skill": "AWS", "weight": 4}
+  ],
+  "preferred_skills": [
+    {"skill": "Distributed Systems", "weight": 3},
+    {"skill": "SQL", "weight": 3},
+    {"skill": "Docker", "weight": 2},
+    {"skill": "Leadership", "weight": 2}
+  ],
+  "hiring_focus_areas": ["Customer obsession", "scalable architecture", "data-driven decision making"],
+  "description": "Amazon seeks engineers who build scalable systems and deliver customer-centric solutions.",
+  "baseline_difficulty": 4.3
+}

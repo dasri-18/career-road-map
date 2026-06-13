@@ -1,0 +1,19 @@
+{
+  "company_name": "Deloitte",
+  "role_family": "Consulting / Technology",
+  "required_skills": [
+    {"skill": "Python", "weight": 4},
+    {"skill": "SQL", "weight": 4},
+    {"skill": "Communication", "weight": 5},
+    {"skill": "Agile", "weight": 4}
+  ],
+  "preferred_skills": [
+    {"skill": "Data Visualization", "weight": 3},
+    {"skill": "Cloud Computing", "weight": 3},
+    {"skill": "Consulting", "weight": 3},
+    {"skill": "Business Analysis", "weight": 2}
+  ],
+  "hiring_focus_areas": ["business transformation", "analytics", "risk advisory"],
+  "description": "Deloitte seeks consultants and technologists with strong communication, analytics, and business understanding.",
+  "baseline_difficulty": 3.9
+}

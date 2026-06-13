@@ -1,0 +1,19 @@
+{
+  "company_name": "Cognizant",
+  "role_family": "Technology Services / Software Engineering",
+  "required_skills": [
+    {"skill": "Java", "weight": 5},
+    {"skill": "SQL", "weight": 4},
+    {"skill": "Cloud Computing", "weight": 4},
+    {"skill": "Communication", "weight": 4}
+  ],
+  "preferred_skills": [
+    {"skill": "AWS", "weight": 3},
+    {"skill": "Docker", "weight": 3},
+    {"skill": "Agile", "weight": 3},
+    {"skill": "Business Analysis", "weight": 2}
+  ],
+  "hiring_focus_areas": ["digital engineering", "cloud services", "client delivery"],
+  "description": "Cognizant values software engineers who can support enterprise clients in cloud and digital engineering initiatives.",
+  "baseline_difficulty": 3.7
+}

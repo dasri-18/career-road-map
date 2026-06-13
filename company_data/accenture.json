@@ -1,0 +1,20 @@
+{
+  "company_name": "Accenture",
+  "role_family": "Technology Consulting / Cloud Engineering",
+  "required_skills": [
+    {"skill": "Python", "weight": 4},
+    {"skill": "Java", "weight": 4},
+    {"skill": "Cloud Computing", "weight": 5},
+    {"skill": "AWS", "weight": 4},
+    {"skill": "Agile", "weight": 4}
+  ],
+  "preferred_skills": [
+    {"skill": "Docker", "weight": 3},
+    {"skill": "Kubernetes", "weight": 3},
+    {"skill": "Machine Learning", "weight": 3},
+    {"skill": "Leadership", "weight": 2}
+  ],
+  "hiring_focus_areas": ["cloud transformation", "enterprise architecture", "AI adoption"],
+  "description": "Accenture hires candidates who can deliver cloud-led digital transformation and consulting excellence.",
+  "baseline_difficulty": 4.0
+}

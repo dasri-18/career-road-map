@@ -1,0 +1,20 @@
+{
+  "company_name": "Microsoft",
+  "role_family": "Software Engineering / Cloud Engineer",
+  "required_skills": [
+    {"skill": "C#", "weight": 5},
+    {"skill": "Azure", "weight": 5},
+    {"skill": "SQL", "weight": 4},
+    {"skill": "Git", "weight": 4},
+    {"skill": "Agile", "weight": 3}
+  ],
+  "preferred_skills": [
+    {"skill": "Cloud Computing", "weight": 3},
+    {"skill": "Docker", "weight": 3},
+    {"skill": "DevOps", "weight": 2},
+    {"skill": "Communication", "weight": 2}
+  ],
+  "hiring_focus_areas": ["Cloud platform", "Azure services", "Enterprise applications"],
+  "description": "Microsoft values cloud, enterprise-scale engineering, and cross-functional collaboration.",
+  "baseline_difficulty": 4.0
+}

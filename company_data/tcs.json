@@ -1,0 +1,20 @@
+{
+  "company_name": "TCS",
+  "role_family": "Software and Consulting",
+  "required_skills": [
+    {"skill": "Java", "weight": 5},
+    {"skill": "SQL", "weight": 4},
+    {"skill": "Communication", "weight": 4},
+    {"skill": "Agile", "weight": 3},
+    {"skill": "Cloud Computing", "weight": 3}
+  ],
+  "preferred_skills": [
+    {"skill": "AWS", "weight": 3},
+    {"skill": "Docker", "weight": 2},
+    {"skill": "Leadership", "weight": 2},
+    {"skill": "Business Analysis", "weight": 2}
+  ],
+  "hiring_focus_areas": ["Digital transformation", "enterprise services", "client delivery"],
+  "description": "TCS seeks engineering and consulting candidates with strong communication, process, and technical skills.",
+  "baseline_difficulty": 3.5
+}

@@ -1,0 +1,21 @@
+{
+  "company_name": "Google",
+  "role_family": "Software Engineering / AI Engineering",
+  "required_skills": [
+    {"skill": "Python", "weight": 5},
+    {"skill": "Machine Learning", "weight": 5},
+    {"skill": "Algorithms", "weight": 5},
+    {"skill": "Data Structures", "weight": 5},
+    {"skill": "System Design", "weight": 4},
+    {"skill": "Cloud Computing", "weight": 4}
+  ],
+  "preferred_skills": [
+    {"skill": "TensorFlow", "weight": 3},
+    {"skill": "NLP", "weight": 3},
+    {"skill": "Generative AI", "weight": 3},
+    {"skill": "Data Visualization", "weight": 2}
+  ],
+  "hiring_focus_areas": ["AI research", "Machine Learning", "Scalable systems"],
+  "description": "Google seeks strong engineers with machine learning, scalable systems, and research experience.",
+  "baseline_difficulty": 4.5
+}
