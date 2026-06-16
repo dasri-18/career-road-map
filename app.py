@@ -152,6 +152,129 @@ def create_report_bytes(
     )
 
 
+def get_unemployed_roadmap_tree() -> str:
+    return """
+Unemployed Student
+│
+├── Choose Career Domain
+│   ├── Web Development
+│   ├── Data Science
+│   ├── AI/ML
+│   ├── Cyber Security
+│   └── Cloud Computing
+│
+├── Learn Fundamentals
+│   ├── Programming (Python/Java/C++)
+│   ├── DBMS
+│   ├── OOPs
+│   ├── Operating Systems
+│   └── Computer Networks
+│
+├── Develop Skills
+│   ├── Data Structures & Algorithms
+│   ├── Git & GitHub
+│   ├── Problem Solving
+│   └── Aptitude & Reasoning
+│
+├── Build Projects
+│   ├── Mini Project 1
+│   ├── Mini Project 2
+│   ├── Major Project
+│   └── Portfolio Website
+│
+├── Create Professional Profiles
+│   ├── Resume
+│   ├── LinkedIn Profile
+│   └── GitHub Profile
+│
+├── Apply for Internships
+│   ├── Google
+│   ├── Microsoft
+│   ├── Amazon
+│   ├── Infosys
+│   ├── TCS
+│   ├── Wipro
+│   └── Accenture
+│
+├── Prepare for Interviews
+│   ├── Coding Questions
+│   ├── Technical Subjects
+│   ├── Mock Interviews
+│   └── Communication Skills
+│
+└── Get Internship
+    ├── Gain Experience
+    ├── Learn Industry Tools
+    └── Convert Internship to Full-Time Job
+"""
+
+
+def display_roadmap_tree() -> None:
+    st.subheader("🎯 Unemployed Internship Roadmap")
+    
+    roadmap_stages = {
+        "01 Choose Career Domain": [
+            "Web Development",
+            "Data Science",
+            "AI/ML",
+            "Cyber Security",
+            "Cloud Computing",
+        ],
+        "02 Learn Fundamentals": [
+            "Programming (Python/Java/C++)",
+            "DBMS",
+            "OOPs",
+            "Operating Systems",
+            "Computer Networks",
+        ],
+        "03 Develop Skills": [
+            "Data Structures & Algorithms",
+            "Git & GitHub",
+            "Problem Solving",
+            "Aptitude & Reasoning",
+        ],
+        "04 Build Projects": [
+            "Mini Project 1",
+            "Mini Project 2",
+            "Major Project",
+            "Portfolio Website",
+        ],
+        "05 Create Professional Profiles": [
+            "Resume",
+            "LinkedIn Profile",
+            "GitHub Profile",
+        ],
+        "06 Apply for Internships": [
+            "Google",
+            "Microsoft",
+            "Amazon",
+            "Infosys",
+            "TCS",
+            "Wipro",
+            "Accenture",
+        ],
+        "07 Prepare for Interviews": [
+            "Coding Questions",
+            "Technical Subjects",
+            "Mock Interviews",
+            "Communication Skills",
+        ],
+        "08 Get Internship": [
+            "Gain Experience",
+            "Learn Industry Tools",
+            "Convert Internship to Full-Time Job",
+        ],
+    }
+    
+    cols = st.columns(2)
+    for idx, (stage, items) in enumerate(roadmap_stages.items()):
+        with cols[idx % 2]:
+            with st.expander(f"📍 {stage}", expanded=(idx < 2)):
+                for item in items:
+                    st.write(f"  • {item}")
+
+
+
 def main() -> None:
     st.set_page_config(page_title="AI Career Roadmap Generator", layout="wide")
     services = get_services()
@@ -159,6 +282,8 @@ def main() -> None:
     st.markdown(
         "Use the form below to upload your resume, select a target company, and receive a personalized career readiness report."
     )
+    display_roadmap_tree()
+
 
     with st.sidebar.form("profile_form"):
         name = st.text_input("Candidate name", value="")
